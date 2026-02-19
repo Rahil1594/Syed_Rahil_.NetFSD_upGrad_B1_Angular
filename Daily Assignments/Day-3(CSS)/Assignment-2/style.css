@@ -1,0 +1,38 @@
+
+* {
+    box-sizing: border-box;
+}
+
+
+.course {
+    width: 200px;
+    padding: 15px;
+    margin: 10px;
+    border: 1px solid red;
+    display: inline-block;
+}
+
+.course > h3 {
+    color: blue;
+}
+
+
+h3 + p {
+    font-size: 14px;
+}
+
+a:hover {
+    color: red;
+}
+
+li:first-child {
+    font-weight: bold;
+}
+
+.course:first-child {
+    background-color: #e6ffe6;
+}
+
+.course:last-child {
+    background-color: #ffe6e6;
+}
